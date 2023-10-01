@@ -22,6 +22,37 @@ img {
     border-radius: 50%;
 }
 
+.nav ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+}
+
+.hero .image-btc {
+    width: 25%;
+    height: auto;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 100px;
+}
+
 h1 {
     color: #f9faf8;
     font-size: 48px;

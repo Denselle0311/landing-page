@@ -9,8 +9,12 @@ img {
     height: auto;
 }
 
+
 .header {
     background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header-logo img {
